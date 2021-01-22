@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "429300619567",
+    "firebase_url": "https://pandemic-health-assistant.firebaseio.com",
+    "project_id": "pandemic-health-assistant",
+    "storage_bucket": "pandemic-health-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429300619567:android:78cdcecef81961e3da29da",
+        "android_client_info": {
+          "package_name": "com.hemontosoftware.pandemichealthkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429300619567-3d99cj6ldfjd145f3ehjgjpgosf4epar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hemontosoftware.pandemichealthkit",
+            "certificate_hash": "2c5a8bf13d8a9c9dad0de19817ae5262eb8c393a"
+          }
+        },
+        {
+          "client_id": "429300619567-cgn7tmj3dnejmlf0o3sbjd9hlflhii1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHnnLXEXU7gGaIFhDkudlHOboVkO0gr-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429300619567-cgn7tmj3dnejmlf0o3sbjd9hlflhii1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

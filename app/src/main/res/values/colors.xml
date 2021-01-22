@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#43a6fc</color>
+    <color name="colorPrimaryDark">#1F96FF</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="startColor">#1ccccd</color>
+    <color name="endColor">#43a6fc</color>
+    <color name="headerColor">#31bbfd</color>
+    <color name="primaryTextColor">#3C3C3C</color>
+    <color name="secondaryTextColor">#676767</color>
+    <color name="searchBorderColor">#00897B</color>
+
+
+            <!--icon color-->
+
+    <color name="viloteColor">#855ee4</color>
+    <color name="pinkColor">#fa4c96</color>
+    <color name="asmaniColor">#1dcaa7</color>
+    <color name="yellowColor">#ec9228</color>
+    <color name="greenColor">#3db64e</color>
+    <color name="redColor">#e82c32</color>
+
+
+</resources>
