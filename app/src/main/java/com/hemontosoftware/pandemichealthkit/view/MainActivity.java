@@ -168,12 +168,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.navigation_profile:
                 startActivity(new Intent(MainActivity.this, ProfileActivity.class));
                 break;
-            case R.id.navigation_policy:
-                Toast.makeText(this, "Policy", Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.navigation_terms_and_conditions:
-                Toast.makeText(this, "Terms & Condition", Toast.LENGTH_SHORT).show();
-                break;
         }
         return false;
     }
@@ -241,19 +235,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.profile:
                 startActivity(new Intent(MainActivity.this, ProfileActivity.class));
                 break;
-            case R.id.share:
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.rate_us:
-                Toast.makeText(this, "Rate Us", Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.about_us:
-                Toast.makeText(this, "About Us", Toast.LENGTH_SHORT).show();
-                break;
             case R.id.logout:
                 FirebaseAuth.getInstance().signOut();
                 sessaionManager.set_user_login_status("false");
-                Toast.makeText(this, "Successfully Logout", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Successfully Logged Out", Toast.LENGTH_SHORT).show();
                 break;
             default:
                 return super.onOptionsItemSelected(item);

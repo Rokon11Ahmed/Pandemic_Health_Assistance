@@ -14,13 +14,5 @@
             android:id="@+id/navigation_profile"
             android:icon="@drawable/nav_icon_profile"
             android:title="Profile" />
-        <item
-            android:id="@+id/navigation_policy"
-            android:icon="@drawable/nav_icon_policy"
-            android:title="Policy" />
-        <item
-            android:id="@+id/navigation_terms_and_conditions"
-            android:icon="@drawable/nav_icon_terms_and_condition"
-            android:title="Terms &amp; Condition" />
     </group>
 </menu>

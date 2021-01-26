@@ -127,7 +127,7 @@ public class HospitalMapsActivity extends AppCompatActivity {
                 sb.append(",");
                 sb.append(HospitalMapsActivity.this.currentLong);
                 sb.append("&radius=5000&type=");
-                sb.append("shopping");
+                sb.append("hospital");
                 sb.append("&sensor=true&key=");
                 sb.append(HospitalMapsActivity.this.getResources().getString(R.string.google_map_key));
                 String url = sb.toString();

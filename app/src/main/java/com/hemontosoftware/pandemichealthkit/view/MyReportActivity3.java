@@ -120,7 +120,7 @@ public class MyReportActivity3 extends AppCompatActivity {
     private void coronaNegative() {
         AlertDialog alertDialog = new AlertDialog.Builder(this).create();
         alertDialog.setTitle("Corona Negative");
-        alertDialog.setMessage("From survey we can say, currently you are corona Negative\n\nThank you for take survey\nStay home stay safe");
+        alertDialog.setMessage("From the survey we can say, currently you are corona Negative\n\nThank you for taking the survey\nStay home stay safe");
         alertDialog.setCanceledOnTouchOutside(false);
         alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "OK",
                 new DialogInterface.OnClickListener() {
@@ -136,7 +136,7 @@ public class MyReportActivity3 extends AppCompatActivity {
     private void coronaPositive() {
         AlertDialog alertDialog = new AlertDialog.Builder(this).create();
         alertDialog.setTitle("Corona Positive");
-        alertDialog.setMessage("From survey we can say, currently you are corona Positive. We suggest you take a COVID19 test to make sure it.\n\nThank you for take survey\nStay home stay safe");
+        alertDialog.setMessage("From the survey we can say, currently you are corona Positive. We suggest you take a COVID-19 test to make sure of it.\n\nThank you for taking survey\nStay home stay safe");
         alertDialog.setCanceledOnTouchOutside(false);
         alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "OK",
                 new DialogInterface.OnClickListener() {
