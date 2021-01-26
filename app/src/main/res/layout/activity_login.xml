@@ -90,7 +90,7 @@
             android:id="@+id/OTP_edittext"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:hint="OPT Code"
+            android:hint="OTP Code"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:background="@drawable/enter_number_bg"></EditText>
